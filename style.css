@@ -1,0 +1,134 @@
+body{
+    background: #2c3e50;
+    color: #fff;
+    padding:20px;
+    letter-spacing: 5px;
+  }
+
+  .pagina{
+    width:auto;
+    height:auto;
+    margin: 30px 0 0;
+  }
+
+  .linha{
+    width:auto;
+    padding:5px;
+    height:auto;
+    display:table;
+  }
+  .tile{
+    height:200px;
+    width:200px;
+    float:left;
+    margin:5px 5px 5px 5px;
+    padding:2px;
+    font-size: 48px;
+    line-height: 45px;
+    letter-spacing: 5px;
+    color: #ecf0f1;
+  }
+
+  .longTile{
+    width:410px;
+  }
+  .temperature{
+    background:#16a085;
+    text-indent: 5px;
+    text-align:right;
+  }
+
+  .purple{
+    background:#8e44ad;
+    font-size: 36px;
+  }
+
+  .blue{
+    background:#3498db;
+    font-size: 24px;
+  }
+
+  h1{
+    text-indent: 10px;
+  }
+
+  .pressure{
+    background:#16a085;
+    font-size: 200px;
+    text-align:center;
+  }
+
+  .presTrend{
+    position: relative;
+    /*This needs to be dynamic based on the cases of +(28%), -(33%), and 0(40%).*/
+    top: 33%;
+  }
+
+  .description{
+    text-align:left;
+    font-size: .5em;
+    line-height: 85%;
+    padding-top:5px;
+  }
+
+  .temp{
+    text-align:left;
+    font-size: 1em;
+  }
+
+  .tempNum{
+    font-size: 1.9em;
+    letter-spacing: -3px;
+    padding-top: 20px;
+  }
+
+  .vis{
+    text-align:left;
+    font-size: 1em;
+    line-height: 85%;
+  }
+
+  .visNum{
+    padding-top: 20px;
+    padding-bottom:7px;
+    font-size: 2.5em;
+    letter-spacing: -3px;
+  }
+
+  .humidPercent{
+    padding-bottom:7px;
+    font-size: 2.4em;
+    padding-top: 20px;
+    letter-spacing: -3px;
+  }
+
+  .time{
+    background:#16a085;
+  }
+
+  .rise,.set,.day{
+    font-size: 35px;
+    padding: 20px;
+  }
+
+  .rise{
+    text-align: left;
+  }
+
+  .set{
+    float: right;
+  }
+
+  .pic{
+    height: 50px;
+    width: auto;
+  }
+
+  .day{
+    text-align:center;
+  }
+
+  .dayLook{
+    font-size: .5em;
+    text-align:center;
+  }

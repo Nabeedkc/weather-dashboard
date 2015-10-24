@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta charset="UTF-8">
+    <title>Simple Metro Tiles Weather Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://weather.evinrevello.com/">Simple Weather Dashboard</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/evinr/Dashboards/blob/master/Simple_Weather_Dashboard.html">Source Code</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input class="form-control" name="userLocation" placeholder="City, ST here..." type="text">
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Begin Data Presentation Area -->
+    <div class="container-fluid">
+      <div class="pagina">
+        <div class="linha">
+          <h1 class="local_heading"></h1>
+          <div class="tile temperature"><span class="temp"></span></div>
+          <div class="tile longTile blue"><span class="wind"></span></div>
+          <div class="tile  purple"><span class="humid"></span></div>
+          <div class="tile pressure"><span class="presTrend"></span></div>
+          <div class="tile blue"><span class="dew"></span></div>
+          <div class="tile  purple"><span class="visability"></span></div>
+          <div class="tile longTile time"><span class="rise"></span><br><span class="set"></span><br><span class="day"></span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+    
